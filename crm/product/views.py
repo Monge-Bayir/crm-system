@@ -4,7 +4,7 @@ from .models import Product
 
 
 class IndexView(TemplateView):
-    template_name = 'crm/_base.html'
+    template_name = 'crm/users/index.html'
 
 
 class ProductListView(ListView):
