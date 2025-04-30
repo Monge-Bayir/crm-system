@@ -1,6 +1,11 @@
 from django.urls import reverse_lazy
-from django.views.generic import ListView, CreateView, UpdateView, DetailView, DeleteView
+from django.views.generic import ListView, CreateView, UpdateView, DetailView, DeleteView, TemplateView
 from .models import Product
+
+
+class IndexView(TemplateView):
+    template_name = 'crm/_base.html'
+
 
 class ProductListView(ListView):
     model = Product
