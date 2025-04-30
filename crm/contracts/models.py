@@ -7,3 +7,4 @@ class Contracts(models.Model):
     start_date = models.DateTimeField()
     end_date = models.DateTimeField()
     cost = models.DecimalField(default=0, max_digits=8, decimal_places=2)
+

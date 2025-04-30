@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'leads.apps.LeadsConfig',
     'ads.apps.AdsConfig',
     'contracts.apps.ContractsConfig',
-    'accounts.apps.AccountsConfig'
+    'accounts.apps.AccountsConfig',
+    'crm.apps.CrmConfig'
 ]
 
 MIDDLEWARE = [
@@ -130,3 +131,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = 'login'
+
+HANDLER403 = 'crm.views.permission_denied_view'
