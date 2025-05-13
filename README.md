@@ -16,7 +16,7 @@
 1. Клонировать репозиторий
 
 ```bash
-git clone https://github.com/yourusername/crm-system.git
+git clone https://github.com/Monge-Bayir/crm-system.git
 cd crm-system
 
 
