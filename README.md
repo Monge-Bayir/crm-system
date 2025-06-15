@@ -23,6 +23,7 @@ cd crm-system
 2. Собрать Docker-образ
 
 ```bash
+cd crm
 docker build -t app .
 ```
 
